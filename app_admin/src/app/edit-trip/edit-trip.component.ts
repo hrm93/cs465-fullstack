@@ -10,8 +10,9 @@ import { Trip } from '../models/trip';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './edit-trip.component.html',
-  styleUrls: ['./edit-trip.component.css']
+  styleUrl: './edit-trip.component.css'
 })
+
 export class EditTripComponent implements OnInit {
   public editForm!: FormGroup;
   trip!: Trip;
